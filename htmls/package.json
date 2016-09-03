@@ -1,0 +1,21 @@
+{
+  "name": "uknack",
+  "version": "1.0.0",
+  "description": "knack knack",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "knack"
+  ],
+  "author": "eon",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  },
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-spritesmith": "^5.0.0"
+  }
+}

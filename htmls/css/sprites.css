@@ -1,0 +1,221 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+.icon-bell {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: -126px -63px;
+  width: 18px;
+  height: 21px;
+}
+.icon-camera-white {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: -60px -71px;
+  width: 30px;
+  height: 22px;
+}
+.icon-camera {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: 0px -124px;
+  width: 20px;
+  height: 16px;
+}
+.icon-close {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: -103px -43px;
+  width: 12px;
+  height: 12px;
+}
+.icon-date {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: -133px -124px;
+  width: 15px;
+  height: 15px;
+}
+.icon-edit {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: -112px -71px;
+  width: 14px;
+  height: 14px;
+}
+.icon-facebook-big {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: 0px 0px;
+  width: 42px;
+  height: 43px;
+}
+.icon-facebook-color {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: -70px -101px;
+  width: 22px;
+  height: 22px;
+}
+.icon-facebook {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: -48px -101px;
+  width: 22px;
+  height: 22px;
+}
+.icon-fav {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: 0px -101px;
+  width: 26px;
+  height: 23px;
+}
+.icon-googleplus-color {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: -90px -71px;
+  width: 22px;
+  height: 22px;
+}
+.icon-grid-active {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: -54px -124px;
+  width: 17px;
+  height: 15px;
+}
+.icon-grid {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: -37px -124px;
+  width: 17px;
+  height: 15px;
+}
+.icon-instagram-big {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: -84px 0px;
+  width: 42px;
+  height: 42px;
+}
+.icon-instagram-color {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: -92px -101px;
+  width: 22px;
+  height: 22px;
+}
+.icon-list-active {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: -71px -124px;
+  width: 17px;
+  height: 15px;
+}
+.icon-list {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: -20px -124px;
+  width: 17px;
+  height: 15px;
+}
+.icon-message {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: -126px -43px;
+  width: 22px;
+  height: 20px;
+}
+.icon-next {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: 0px -71px;
+  width: 30px;
+  height: 30px;
+}
+.icon-out {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: -126px -22px;
+  width: 22px;
+  height: 21px;
+}
+.icon-plus {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: -126px -84px;
+  width: 19px;
+  height: 19px;
+}
+.icon-prev {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: -30px -71px;
+  width: 30px;
+  height: 30px;
+}
+.icon-qmark-active {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: -118px -124px;
+  width: 15px;
+  height: 15px;
+}
+.icon-qmark {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: -88px -124px;
+  width: 15px;
+  height: 15px;
+}
+.icon-rating-bg {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: 0px -57px;
+  width: 83px;
+  height: 14px;
+}
+.icon-rating-one {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: -114px -101px;
+  width: 12px;
+  height: 11px;
+}
+.icon-rating {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: 0px -43px;
+  width: 83px;
+  height: 14px;
+}
+.icon-search {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: -126px -103px;
+  width: 18px;
+  height: 18px;
+}
+.icon-suitcase-active {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: -99px -57px;
+  width: 16px;
+  height: 14px;
+}
+.icon-suitcase {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: -83px -57px;
+  width: 16px;
+  height: 14px;
+}
+.icon-twitter-big {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: -42px 0px;
+  width: 42px;
+  height: 42px;
+}
+.icon-twitter-color {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: -126px 0px;
+  width: 22px;
+  height: 22px;
+}
+.icon-twitter {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: -26px -101px;
+  width: 22px;
+  height: 22px;
+}
+.icon-video-camera {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: -83px -43px;
+  width: 20px;
+  height: 13px;
+}
+.icon-view-icon {
+  background-image: url(../images/sprites/sprites.png);
+  background-position: -103px -124px;
+  width: 15px;
+  height: 15px;
+}

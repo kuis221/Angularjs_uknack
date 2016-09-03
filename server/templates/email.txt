@@ -1,0 +1,18 @@
+Hello!
+Thank you for joining Unack! We're really happy to have you.
+
+Do business with your friends and classmates
+and keep 100% of the money you make.
+
+1.	Post things you're good at
+2.	Get hired by your classmates
+3.	Do business and get paid instantly
+
+<a href="http://52.10.177.231/#/register/{{ uuid }}">GET STARTED</a>
+
+Uknack will always be free for students
+
+Happy Knacking
+- Team Uknack
+
+SAY HELLO

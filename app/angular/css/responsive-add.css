@@ -1,0 +1,718 @@
+/* Additional Responsive Styles */
+
+@media (min-width: 992px) {
+	.guide-list {
+		padding-left:100px;
+		padding-right:100px;
+	}
+
+	.lead {
+		padding-left:50px;
+		padding-right: 50px;
+	}
+
+	.lead.full {
+		padding-left:0;
+		padding-right: 0;
+	}
+
+	.center-container.smaller {
+		width:793px;
+		margin:0 auto;
+	}
+
+	.faqs-section .row {
+		margin-left:-60px;
+		margin-right:-60px;
+	}
+
+	.faqs-section [class*=col-] {
+		padding:0 60px;
+	}
+
+	.about-row-content {
+		padding-right: 60px;
+	}
+
+	.about-row-content .title {
+		white-space: nowrap;
+	}
+
+	.center-container.smaller {
+		width:840px;
+		margin:0 auto;
+		padding:0;
+	}
+
+	.econ-content + .econ-image {
+		padding-right: 0;
+		padding-left: 33px;
+	}
+
+	.econ-image + .econ-content {
+		padding-right: 0;
+		padding-left: 33px;
+	}
+}
+
+@media (min-width: 1024px) { 
+	.center-container {
+		width:996px;
+		margin:0 auto;
+		padding:0;
+	}
+}
+
+@media (min-width: 1200px) {
+	.econ-image-content div {
+		padding:0 30px;
+		font-size:18px;
+		line-height: 1.6;
+	}
+
+	.econ-image-content h3 {
+		font-size:28px;
+		line-height:1.39;
+	}
+}
+
+@media (min-width: 1280px) { 
+	.fullpage .container{
+		width: 1230px;
+	}
+}
+
+@media (min-width: 1600px) { 
+	.econ-image-content h3 {
+		font-size:36px;
+	}
+
+	.econ-image-content div {
+		padding:0 70px;
+		font-size:22px;
+		line-height: 1.73;
+	}
+}
+
+
+@media (max-width: 991px) {
+
+	#header.main-header,
+	#header.main-header.down {
+		top:26px;
+	}
+
+	#header.main-header.sticky-menu.headroom--unpinned,
+	#header.main-header.sticky-menu.down.headroom--unpinned {
+		top:-86px;
+	}
+
+	.header-box,
+	.foote-box {
+		padding-left:15px;
+		padding-right: 15px;
+	}
+
+	.page-header h1,
+	.footer-box h4,
+	.howto-section h2 {
+		font-size:48px;
+	}
+
+	.howto-section h2 > span {
+		font-size:21px;
+	}
+
+	.howto-content {
+		font-size:19px;
+	}
+
+	.page-header p,
+	.lead,
+	.step-content h2,
+	.steps-action h3,
+	.title,
+	.footer-box p,
+	.callout-section h3,
+	.lead-title {
+		font-size: 25px;
+	}
+
+	.steps-action p {
+		font-size: 22px;
+	}
+
+	.step-content blockquote p {
+		font-size: 18px;
+	}
+
+	.step-content cite {
+		font-size: 15px;
+	}
+
+	.title {
+		margin-bottom: 70px;
+	}
+
+	.tweets-section .owl-dots {
+		top:-87px;
+	}
+
+	.lead,
+	.steps-action p {
+		max-width:85%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.tweet_list li {
+		padding:22px 29px 27px;
+		font-size:15px;
+	}
+	.tweet_list .twitter-icon {
+		top:25px;
+		right:20px;
+	}
+
+	.guide-list li {
+		font-size:18px;
+	}
+
+	.feature-box img {
+		max-width: 320px
+	}
+
+	.feature-box-content {
+		margin-top:0;
+	}
+
+	.about-row-image img {
+		max-width: 90%;
+	}
+
+	.dot-list li {
+		font-size: 20px;
+	}
+	
+	.callout-section {
+		font-size:18px;
+	}
+
+	.category-list-container .col-5 {
+		width:33.3%;
+	}
+
+	.grid-image-box div {
+		font-size:24px;
+	}
+
+	.grid-content-box {
+		font-size:14px;
+	}
+
+	.econ-content {
+		font-size:20px;
+		line-height: 1.65;
+	}
+
+	.footer-top .footer-box {
+		padding-left:15px;
+		padding-right:15px;
+	}
+
+	.footer-inner {
+		padding-top:70px;
+	}
+
+	.page-header,
+	.page-header.larger {
+		padding-top:20px;
+		padding-bottom:0;
+	}
+
+	.econ-image-row {
+		margin-bottom: 115px;
+	}
+
+	.econ-image-content div p {
+		display: none;
+	}
+
+}
+@media (max-width: 767px) {
+	#header.main-header {
+		padding:0;
+	}
+
+	#header.main-header .container {
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+
+	#header.main-header,
+	#header.main-header.down {
+		top:16px;
+	}
+
+	#header.main-header.sticky-menu.headroom--unpinned,
+	#header.main-header.sticky-menu.down.headroom--unpinned {
+		top:-76px;
+	}
+
+	.lead,
+	.steps-action p {
+		max-width:100%;
+	}
+
+	.main-header .navbar-toggle {
+		display: block;
+	}
+	
+	.main-header .menu,
+	.main-header li {
+		float: none;
+	}
+
+	.main-header .navbar-collapse {
+		border:none;
+		position: absolute;
+		left:0;
+		right:0;
+		top:100%;
+		margin-top:15px;
+		background-color: #1d4c9a;
+		margin:0;
+		padding:10px 15px 18px;
+		transition: all 0.5s ease;
+		-webkit-transition: all 0.5s ease;
+		
+	}
+
+	.main-header .menu li + li {
+		margin-left: 0;
+	}
+
+	.page-header h1,
+	.footer-box h4,
+	.howto-section h2 {
+		font-size:36px;
+	}
+
+	.howto-section h2 > span {
+		font-size:18px;
+	}
+
+	.page-header p,
+	.lead,
+	.step-content h2,
+	.steps-action h3,
+	.title,
+	.footer-box p,
+	.callout-section h3,
+	.lead-title {
+		font-size: 22px;
+	}
+
+	.steps-action p,
+	.howto-content,
+	.hired-box {
+		font-size: 16px;
+	}
+
+
+	.step-content blockquote p {
+		font-size: 18px;
+	}
+
+	.step-content cite {
+		font-size: 15px;
+	}
+
+	.title {
+		margin-bottom: 70px;
+	}
+
+	.lead {
+		margin-bottom:55px;
+	}
+	
+	.steps-section {
+		padding:66px 0 0px;
+	}
+
+	.knacks-section {
+		padding:66px 0 70px;
+	}
+
+	.tweets-section {
+		padding:67px 0 67px;
+	}
+
+	.steps-container h3 {
+		margin-bottom:60px;
+	}
+	
+	.step-row,
+	.step-content, 
+	.step-image {
+		display: block;
+	}
+	
+	.step-row {
+		padding-bottom: 50px;
+		margin-bottom: 50px;
+	}
+
+	.step-row:last-of-type {
+		margin-bottom: 80px;
+	}
+
+	.step-content,
+	.step-image + .step-content {
+		padding:0;
+	}
+	
+	.step-image {
+		text-align: left;
+	}
+
+	.step-image +.step-content {
+		margin-top:40px;
+	}
+
+	.step-content + .step-image {
+		margin-top:40px;
+	}
+
+	.tweets-section .owl-dots {
+		top:-47px;
+		right:auto;
+		left:0;
+	}
+
+	.guidelines-section {
+		padding:65px 0 78px;
+	}
+
+	.guidelines-section  .lead {
+		margin-bottom: 65px;
+	}
+
+	.guide-list { 
+		padding:65px 0;
+		margin-bottom: 60px;
+	}
+
+	.guide-list li {
+		font-size:16px;
+	}
+
+	.terms-section {
+		padding:54px 0 70px;
+	}
+
+	.faqs-section {
+		padding:45px 0 70px;
+	}
+
+	.features-section {
+		padding-top:85px;
+		padding-bottom: 70px;
+	}
+
+	.feature-box {
+		padding-bottom: 66px;
+		margin-bottom:70px;
+	}
+
+	.feature-box h2 {
+		font-size:20px;
+		margin-top:7px;
+		margin-bottom: 13px;
+	}
+	
+	.feature-box-content,
+	.feature-box img {
+		float:none;
+		max-width: 100%;
+	}
+
+	.feature-box-content {
+		margin-top:30px;
+		font-size:16px;
+	}
+
+	.about-section {
+		padding:67px 0 95px;
+	}
+
+	.about-section .lead {
+		margin-bottom:62px;
+	}
+
+	.about-row {
+		display: block;
+		padding-bottom: 75px;
+		margin-bottom: 72px;
+	}
+
+	.about-row-content,
+	.about-row-image,
+	.howto-content,
+	.howto-image {
+		display: block;
+	}
+	
+	.howto-section  {
+		padding:70px 0 55px;
+	}
+	
+	.howto-section h2 {
+		margin-bottom: 65px;
+	}
+
+	.howto-row {
+		display: block;
+		margin-bottom: 70px;
+	}
+
+	.howto-content,
+	.howto-image +.howto-content {
+		padding-left:0;
+		margin-top:50px;
+	}
+
+	.howto-content {
+		margin-top:0;
+		margin-bottom: 50px;
+	}
+
+	.howto-image {
+		display: none;
+	}
+
+	.howto-content p {
+		max-width: none;
+	}
+
+	.about-row-image + .about-row-content {
+		margin-top:40px;
+	}
+
+	.about-row-content + .about-row-image {
+		margin-top:40px;
+	}
+
+	.about-row-image img {
+		display: block;
+		max-width: 100%;
+	}
+
+	.dot-list li {
+		font-size: 17px;
+		line-height: 25px;
+		margin-bottom: 14px;
+	}
+	
+	.callout-section,
+	.callout-section.v2,
+	.callout-section.v3,
+	.callout-section.pb-larger {
+		padding:68px 0 75px;
+		font-size:16px;
+		line-height:1.5;
+	}
+
+	.callout-section.no-desc {
+		padding:84px 0 98px;
+	}
+
+	.callout-section h3 {
+		margin-bottom:20px;
+	}
+
+	.callout-section hr + h3 {
+		margin-bottom: 30px;
+	}
+
+	.callout-section.no-desc h3 {
+		margin-bottom: 39px;
+	}
+
+	.callout-section.no-desc .btn.btn-lg {
+		font-size: 16px;
+	}
+
+	.callout-section p {
+		margin-bottom:25px;
+	}
+
+	.callout-section.callout-category {
+		padding-top:70px;
+		padding-bottom:40px;
+	}
+
+	.category-list-container .col-5 {
+		width:50%;
+	}
+	
+	.hired-section {
+		padding:75px 0;
+	}
+
+	.hired-section .lead {
+		margin-bottom: 75px;
+	}
+
+	.work-steps {
+		padding:72px 0 75px;
+	}
+
+	.work-steps .step-row {
+		margin-bottom: 80px;
+	}
+
+	.hired-container h2 {
+		margin-bottom: 65px;
+	}
+	
+	.hired-box {
+		padding-left:0;
+	}
+
+	.hired-box .hired-icon {
+		display: block;
+		position: static;
+		top:auto;
+		left:auto;
+		margin-bottom: 20px;
+	}
+
+	.hired-box h3,
+	.hired-section .work-steps h3  {
+		margin-bottom: 22px;
+	}
+
+	.our-mission {
+		padding:72px 0 68px;
+		margin-bottom: 70px;
+		font-size:19px;
+		line-height: 1.7;
+	}
+
+	.our-story  {
+		padding-bottom: 70px;
+		margin-bottom: 65px;
+		font-size:16px;
+	}
+
+	.grid-image-box div {
+		font-size:32px;
+	}
+
+	.grid-content-box {
+		font-size:18px;
+	}
+
+	.econy-section {
+		padding:60px 0 75px;
+	}
+	
+	.econ-row {
+		margin-bottom: 65px
+	}
+
+	.econ-row,
+	.econ-content,
+	.econ-image {
+		display: block;
+	}
+
+	.econ-content {
+		margin-bottom: 40px;
+	}
+
+	.econ-image + .econ-content {
+		margin-bottom: 0;
+		margin-top:40px;
+	}
+
+	.econ-content {
+		font-size:17px;
+		line-height: 1.5;
+	}
+
+	.economy-section {
+		padding-top:55px,;
+	}
+
+	.economy-section .lead {
+		margin-bottom: 60px;
+	}
+
+	.econ-image-row {
+		margin-bottom: 70px;
+	}
+
+	.econ-image-big,
+	.econ-image-content,
+	.econ-image-small {
+		float:none;
+		width:100%;
+	}
+
+	.econ-image-content img {
+		display: none;
+	}
+
+	.econ-image-content div {
+		position: static;
+		left:0;
+		right:0;
+		top:auto;
+		transform:translateY(0);
+		-webkit-transform:translateY(0);
+		-ms-transform:translateY(0);
+		padding:40px 15px;
+	}
+
+	.econ-image-content div p {
+		display: block;
+	}
+
+	.footer-box form {
+		margin-top:42px;
+	}
+
+	.footer-box .form-group {
+		width:100%;
+		display: block;
+		margin:0 auto 15px;
+	}
+
+	.footer-box .btn {
+		margin-left:0;
+	}
+}
+
+@media (max-width: 480px) {
+	.grid-image-box div {
+		font-size:24px;
+	}
+
+	.grid-content-box  img {
+		display: none;
+	}
+
+	.grid-content-box div {
+		position: static;
+		top:auto;
+		left:auto;
+		right:auto;
+		padding-top:35px;
+		padding-bottom:35px;
+		transform:translateY(0);
+		-webkit-transform:translateY(0);
+		-ms-transform:translateY(0);
+	}
+}

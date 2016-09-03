@@ -1,0 +1,3 @@
+<p class="read-more-text" ng-class="{'expandable': expandable && !expanded}">{{ readMoreText }}</p>
+<a class="read-more" ng-hide="expanded || !expandable" ng-click="expanded=!expanded">show more</a>
+<a class="read-more" ng-show="expanded && expandable" ng-click="expanded=!expanded">show less</a>
